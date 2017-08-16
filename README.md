@@ -14,4 +14,5 @@ This file contains the GAM 'CategorisationGAM.rdata' from Palmer et al 2017  
   from 1. 
 
 
-
+library(mgcv)
+load(file='CategorisationGAM.rdata')
