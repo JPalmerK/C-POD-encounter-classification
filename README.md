@@ -13,6 +13,4 @@ This file contains the GAM 'CategorisationGAM.rdata' from Palmer et al 2017  
  'broadband' or 'frequency banded' the model is binary. To estimate 'broadband' probability subtract inv.logit() of the model output 
   from 1. 
 
-
-library(mgcv)
-load(file='CategorisationGAM.rdata')
+Example R code provided for running GAM categorisation and likelihood ratio test. Assumes C-POD "click details" exported and pre-processed for predictors and saved as CSV.
