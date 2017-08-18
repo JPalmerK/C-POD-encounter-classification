@@ -30,8 +30,7 @@ Trains=read.csv('YourData.csv')
 
 # 2) Run the GAM categorisation #########
 
-# Create empty column to store prediction values
-Trains$Predicted='NA'
+
 
 # Run the GAM on all the data and transform the scale to 0-1. The transformation
 # isn't strictly necessary, and many likelihood values calculated on the logit
