@@ -14,3 +14,5 @@ This file contains the GAM 'CategorisationGAM.rdata' from Palmer et al 2017  
   from 1. 
 
 Example R code provided for running GAM categorisation and likelihood ratio test. Assumes C-POD "click details" exported and pre-processed for predictors and saved as CSV.
+
+Post Publication Work.docx includes post analysis that we've been able to do since commensing this work in 2013/2014 and includes out-of-sample performance as well as the relationship between the number of click trains in the encounter and whether or not the categorisation system correctly classified the train.
